@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "nrf52840_holyiot_18010")(type "KiCad")(uri "/home/thys/keyboards/hakea/hardware/libraries/symbols/nrf52840_holyiot_18010.kicad_sym")(options "")(descr ""))
+  (lib (name "usb_c_receptacle_usb2.0")(type "KiCad")(uri "/home/thys/keyboards/hakea/hardware/libraries/symbols/usb_c_receptacle_usb2.0.kicad_sym")(options "")(descr ""))
+)
