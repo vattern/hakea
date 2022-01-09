@@ -364,6 +364,7 @@
     (property "Sheetfile" "hakea-plate.kicad_sch")
     (property "Sheetname" "")
     (path "/fb6ca035-08ab-499b-9ca3-9d12c0aa4fce")
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H3" (at 0 -2.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dfefceb5-7f09-4bc7-a8f0-d9498080e2a1)
@@ -12291,6 +12292,7 @@
     (property "Sheetfile" "hakea-plate.kicad_sch")
     (property "Sheetname" "")
     (path "/73286459-0b52-4607-8050-0471afae1bb4")
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H5" (at 0 -2.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c135e86e-9ab7-4205-ae84-a1dc7cea905c)
@@ -13355,6 +13357,7 @@
     (property "Sheetfile" "hakea-plate.kicad_sch")
     (property "Sheetname" "")
     (path "/d91caa9e-b5ad-42e2-91fb-8cb069b0297f")
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H4" (at 0 -2.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp de716d4a-a944-4a6a-961f-e95b90c30748)
@@ -13377,6 +13380,7 @@
     (property "Sheetfile" "hakea-plate.kicad_sch")
     (property "Sheetname" "")
     (path "/5ddba974-a9c5-463b-ac72-4a4bf62ca2c0")
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H6" (at 0 -2.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 408bd3ba-9421-4679-b7d4-b85ca7528d46)
@@ -13555,6 +13559,7 @@
     (property "Sheetfile" "hakea-plate.kicad_sch")
     (property "Sheetname" "")
     (path "/788b4e65-a02a-47a0-acea-c7e4a2028bf8")
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H2" (at 0 -2.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 68009660-3f84-45e4-9ed4-45781339c827)
