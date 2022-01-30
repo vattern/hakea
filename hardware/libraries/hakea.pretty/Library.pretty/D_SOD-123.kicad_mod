@@ -1,6 +1,6 @@
 (footprint "D_SOD-123" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61DB12B8)
+  (tedit 61DB5821)
   (descr "SOD-123 Diode")
   (tags "SOD-123 diode")
   (property "Sheetfile" "hakea.kicad_sch")
@@ -112,7 +112,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+  (model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl" hide
     (offset (xyz 0 0 -1.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

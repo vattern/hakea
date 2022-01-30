@@ -14,17 +14,17 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
+      "otherItems": true,
+      "pads": true,
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       0,
@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "ffe1070_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "fffd5f0_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "hakea-fillets.kicad_prl",

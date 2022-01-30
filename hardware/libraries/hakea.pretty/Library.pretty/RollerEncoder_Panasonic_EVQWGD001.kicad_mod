@@ -1,6 +1,6 @@
 (footprint "RollerEncoder_Panasonic_EVQWGD001" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6040A10C)
+  (tedit 61DB58B6)
   (property "Sheetfile" "hakea.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole exclude_from_pos_files exclude_from_bom)
@@ -44,5 +44,10 @@
     (offset (xyz 8.3 -7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
+  )
+  (model "/home/thys/keyboards/grandiceps/grandiceps.pretty/3d/Encoder.step"
+    (offset (xyz 7.5 -6.5 -3))
+    (scale (xyz 0.95 0.95 0.95))
+    (rotate (xyz 0 0 -90))
   )
 )

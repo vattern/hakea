@@ -412,7 +412,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "gc-rev2-wireless.dsn",
-      "step": "../../../Public/hakea.step",
+      "step": "../3d/PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

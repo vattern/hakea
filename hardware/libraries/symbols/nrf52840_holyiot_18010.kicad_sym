@@ -1,5 +1,5 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "nRF52840_holyiot_18010-kicad-keyboard-parts-ahokore-rescue" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "nRF52840_holyiot_18010" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U4" (id 0) (at 0 38.481 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -12,7 +12,7 @@
     (property "Datasheet" "http://www.holyiot.com/tp/2019042516322180424.pdf" (id 3) (at 2.54 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "nRF52840_holyiot_18010-kicad-keyboard-parts-ahokore-rescue_0_0"
+    (symbol "nRF52840_holyiot_18010_0_0"
       (rectangle (start -15.24 8.89) (end 15.24 -34.29)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -28,7 +28,7 @@
         (effects (font (size 1.27 1.27)))
       )
     )
-    (symbol "nRF52840_holyiot_18010-kicad-keyboard-parts-ahokore-rescue_1_1"
+    (symbol "nRF52840_holyiot_18010_1_1"
       (pin power_in line (at -17.78 6.35 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

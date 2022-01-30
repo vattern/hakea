@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/../libraries/hakea.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "keebs")(type "KiCad")(uri "/home/thys/keyboards/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty")(options "")(descr ""))
 )

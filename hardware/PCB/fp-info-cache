@@ -1,4 +1,4 @@
-19766105776715773
+19945495299078414
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -52087,11 +52087,32 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 Grandiceps
+Board
+Mark board for extraction
+
+0
+0
+0
+Grandiceps
 CherryMX_Choc_Hotswap
 
 
 0
 4
+2
+Grandiceps
+CherryMX_Choc_Hotswap-1side
+
+
+0
+2
+2
+Grandiceps
+CherryMX_KailhLowProfile_Hotswap
+
+
+0
+8
 2
 Grandiceps
 FSMRA6JH
@@ -52164,6 +52185,13 @@ Cherry MX keyswitch 1.00u PCB
 2
 2
 Grandiceps
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+Grandiceps
 TC-1101V
 
 
@@ -52177,6 +52205,13 @@ Tenting_Puck
 0
 5
 1
+Grandiceps
+USB_C_GCT_USB4085
+
+
+0
+20
+17
 Grandiceps
 alps-pot
 RK0971221Z05
@@ -52205,6 +52240,13 @@ midmount_slide
 0
 7
 4
+Grandiceps
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
 Grandiceps
 nRF52840_holyiot_18010
 
@@ -58645,6 +58687,13 @@ Hamamatsu SiPM
 0
 2
 2
+OptoDevice
+Kingbright_KPS-3227
+3.2mmx2.7mm, light sensor, https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf
+KPS-3227 Ambient Light Photo Sensor
+0
+4
+4
 OptoDevice
 Kingbright_KPS-5130
 http://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-5130PD7C(Ver.14).pdf
@@ -68826,6 +68875,13 @@ SOIC SO
 Package_SO
 SOIC-20W_7.5x12.8mm_P1.27mm
 SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+20
+20
+Package_SO
+SOIC-20W_7.5x15.4mm_P1.27mm
+SOIC, 20 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RI_20_1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 20
@@ -84489,6 +84545,426 @@ waffle
 0
 0
 0
+keebs
+SW_Hotswap_Kailh
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_1.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_1.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_1.25u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_1.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_1.50u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_1.75u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_1.75u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.00u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.25u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.50u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.75u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_2.75u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_3.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_3.00u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u Rotated
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_4.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 4.00u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_4.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 4.50u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_5.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 5.50u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_6.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_6.00u_Offset
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u Offset
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_6.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.25u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_6.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.50u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_7.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 7.00u
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_ISOEnter
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_ISOEnter_Rotated90
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_ISOEnter_Rotated180
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+keebs
+SW_Hotswap_Kailh_ISOEnter_Rotated270
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_1.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.00u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_1.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.25u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_1.25u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.25u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_1.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.50u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_1.50u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.50u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_1.75u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.75u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_1.75u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.75u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.00u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.00u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.00u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.25u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.25u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.25u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.50u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.50u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.50u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.75u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.75u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_2.75u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.75u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_3.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 3.00u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_3.00u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 3.00u Rotated
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_4.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 4.00u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_4.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 4.50u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_5.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 5.50u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_6.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.00u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_6.00u_Offset
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.00u Offset
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_6.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.25u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_6.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.50u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_7.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 7.00u
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_ISOEnter
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_ISOEnter_Rotated90
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_ISOEnter_Rotated180
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+keebs
+SW_Kailh_Choc_V1_ISOEnter_Rotated270
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
 keyboard-lib
 SK6812Mini-E
 RGB LED

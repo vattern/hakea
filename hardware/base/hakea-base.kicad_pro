@@ -355,7 +355,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hakea.kicad_pro",
+    "filename": "hakea-base.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -415,7 +415,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "gc-rev2-wireless.dsn",
-      "step": "../../../Public/hakea.step",
+      "step": "../3d/base.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
