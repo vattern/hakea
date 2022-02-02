@@ -1,5 +1,7 @@
 # hakea
 
+![hakea](images/hakea.jpg)
+
 To flash the bootloader :
 ```
 cd bootloader
