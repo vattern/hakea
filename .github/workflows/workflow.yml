@@ -1,0 +1,149 @@
+name: "Make artifacts"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    paths:
+      - 'hardware/PCB/*.kicad_sch'
+      - 'hardware/PCB/*.kicad_pcb'
+      - 'config/*'
+      - '.github/workflows/workflow.yml'
+  pull_request:
+    paths:
+      - 'hardware/PCB/*.kicad_sch'
+      - 'hardware/PCB/*.kicad_pcb'
+      - 'config/*'
+      - '.github/workflows/workflow.yml'
+  repository_dispatch:
+    types: [run_qs]
+
+jobs:
+
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+        fetch-depth: 0
+        token: ${{ secrets.TOKEN }}
+
+    - name: 'Get Previous tag'
+      id: previoustag
+      uses: "WyriHaximus/github-action-get-previous-tag@v1"
+      with:
+        fallback: 1.0.0 # Optional fallback tag to use when no tag can be found
+
+    - name: 'Get next minor version'
+      id: semvers
+      uses: "WyriHaximus/github-action-next-semvers@v1"
+      with:
+        version: ${{ steps.previoustag.outputs.tag }}
+
+    - name: Find and Replace Project file
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "\"GIT_VERSION\": \"${{ steps.previoustag.outputs.tag }}\""
+        replace: "\"GIT_VERSION\": \"${{ steps.semvers.outputs.patch }}\""
+        regex: false
+        include: "**kicad_pro"
+
+    - name: Find and Replace PCB file
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "\"GIT_VERSION\" \"${{ steps.previoustag.outputs.tag }}\""
+        replace: "\"GIT_VERSION\" \"${{ steps.semvers.outputs.patch }}\""
+        regex: false
+        include: "**kicad_pcb"
+
+    - name: Find and Replace README
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "${{ steps.previoustag.outputs.tag }}"
+        replace: "${{ steps.semvers.outputs.patch }}"
+        regex: false
+        include: "README.md"
+
+    - name: Commit files
+      run: |
+        git config --local user.email "bot@tokas.co.uk"
+        git config --local user.name "BOT"
+        git commit -a -m "Add changes [ci skip]"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.TOKEN }}
+        branch: ${{ github.ref }}
+
+    # This is a KiCad 5 example, KiCad 6 uses v2_k6
+    - uses: INTI-CMNB/KiBot@v2_k7
+      name: Run KiBOT
+      with:
+        # Required - kibot config file
+        config: config/settings.yml
+        # optional - prefix to output defined in config
+        dir: pcb_main/Fabrication
+        # optional - schematic file
+        schema: 'hardware/PCB/hakea-fillets.kicad_sch'
+        # optional - PCB design file
+        board: 'hardware/PCB/hakea-fillets.kicad_pcb'
+
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: Automatic_outputs
+        path: |
+          pcb_main/Fabrication
+        if-no-files-found: warn
+
+  # This step is to upload the results to another repo (web pages)
+  deploy:
+    runs-on: ubuntu-latest
+    needs: Fabrication
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+        fetch-depth: 0
+        token: ${{ secrets.TOKEN }}
+
+    - name: 'Get Previous tag'
+      id: previoustag
+      uses: "WyriHaximus/github-action-get-previous-tag@v1"
+      with:
+        fallback: 1.0.0 # Optional fallback tag to use when no tag can be found
+
+    - name: 'Get next minor version'
+      id: semvers
+      uses: "WyriHaximus/github-action-next-semvers@v1"
+      with:
+        version: ${{ steps.previoustag.outputs.tag }}
+
+    - name: Retrieve results
+      uses: actions/download-artifact@v2
+      with:
+        name: Automatic_outputs
+        path: pcb_main/Fabrication
+
+    - name: Deploy navigate results
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
+      with:
+        branch: main
+        folder: pcb_main/Fabrication
+        target-folder: outputs
+        repository-name: vattern/hakea
+        token: ${{ secrets.TOKEN }}
+
+
+    - name: Commit files
+      run: |
+        git config --local user.email "bot@tokas.co.uk"
+        git config --local user.name "BOT"
+        git pull
+        git tag -a ${{ steps.semvers.outputs.patch }} -m "Tag ${{ steps.semvers.outputs.patch }} [ci skip]"
+        git push origin ${{ steps.semvers.outputs.patch }}
+        git push
