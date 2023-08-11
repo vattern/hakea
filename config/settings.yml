@@ -1,0 +1,143 @@
+# Example KiBot config file
+kibot:
+  version: 1
+
+preflight:
+  run_erc: false
+  run_drc: false
+  check_zone_fills: false
+  ignore_unconnected: false
+
+global:
+  # We want the revision added to the names for this project
+  output: '%f-%i_%r.%x'
+  dir: Fabrication
+
+
+import:
+  - JLCPCB.kibot.yaml
+
+filters:
+ - name: 'exclude_any'
+   type: 'generic'
+   comment: 'Exclude logos, testpoints, fiducials and power'
+   exclude_any:
+     - column: Reference
+       regex: '^(G|#|TP|F).*'
+
+outputs:
+
+  - name: 'create diffs'
+    comment: "Create diff PDF"
+    type: diff
+    dir: .
+
+  # - name: 'render 3d'
+  #   comment: "Render 3d "
+  #   type: render_3d
+  #   dir: .
+
+  - name: 'export-blender'
+    comment: "Export 3d render"
+    type: blender_export
+    dir: .
+    options:
+      render_options:
+        samples: 100
+      point_of_view:
+        rotate_x: 30
+        rotate_z: 30
+      outputs:
+        type: render
+
+  # - name: export_pcb
+  #   comment: 'Copy 3D models'
+  #   type: copy_files
+  #   dir: 'expoted_pcb'
+  #   options:
+  #     files:
+  #       - source_type: 3d_models
+  #         dest: 3d_models+
+  #         save_pcb: true
+
+  - name: 'make_stencil'
+    type: stencil_3d
+
+
+  - name: 'print_sch'
+    comment: "Print schematic (PDF)"
+    type: svg_sch_print
+    dir: .
+    options:
+      background_color: true
+
+  - name: 'interactive_bom'
+    comment: "Interactive Bill of Materials (HTML)"
+    type: ibom
+    dir: BoM
+    options:
+      blacklist: 'DNF*'
+
+  - name: 'bom_html'
+    comment: "Bill of Materials in HTML format"
+    type: bom
+    dir: BoM
+    options: &bom_options
+      columns:
+        - Row
+        - field: References
+          name: Reference
+        - field: Part
+          name: Part
+        - field: Value
+          name: Value
+        - field: manf#
+          name: P/N
+        - field: manf
+          name: Manufacturer
+        - Footprint
+        - field: Desc
+          name: Description
+        - 'Quantity Per PCB'
+      group_fields:  [ 'Part']
+      normalize_values: true
+      normalize_locale: true
+      exclude_filter: 'exclude_any'
+      html:
+        highlight_empty: false
+
+
+  - name: 'bom_csv'
+    comment: "Bill of Materials in CSV format"
+    type: bom
+    dir: BoM
+    options:
+      <<: *bom_options
+      format: CSV
+
+  - name: pcb_top_g
+    comment: "PCB render top green"
+    type: pcbdraw
+    dir: PCB/green
+    options:
+      format: jpg
+      show_components: none
+      dpi: 600
+
+  - name: pcb_bot_g
+    comment: "PCB render bottom green"
+    type: pcbdraw
+    dir: PCB/green
+    options:
+      format: jpg
+      bottom: True
+      show_components: none
+      dpi: 600
+
+  - name: step
+    comment: "Generate 3D model (STEP)"
+    type: step
+    dir: 3D
+    options:
+      metric_units: true
+      origin: 85,66.2
