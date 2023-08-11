@@ -132,7 +132,7 @@ jobs:
         branch: main
         folder: pcb_main/Fabrication
         target-folder: outputs
-        repository-name: vattern/hakea
+        repository-name: ${{ github.repository }}
         token: ${{ secrets.TOKEN }}
 
 
@@ -141,7 +141,7 @@ jobs:
         git config --local user.email "bot@tokas.co.uk"
         git config --local user.name "BOT"
         git remote rm origin
-        git remote add origin https://github.com/vattern/hakea.git
+        git remote add origin ${{ github.server.ul }}/${{ github.repository }}.git
         git pull
         git tag -a ${{ steps.semvers.outputs.patch }} -m "Tag ${{ steps.semvers.outputs.patch }} [ci skip]"
         git push origin ${{ steps.semvers.outputs.patch }}
