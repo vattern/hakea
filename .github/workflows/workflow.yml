@@ -4,17 +4,26 @@ name: "Make artifacts"
 # events but only for the master branch
 on:
   push:
+<<<<<<< Updated upstream
+=======
+    # branches:
+    #   - 'main'
+>>>>>>> Stashed changes
     paths:
       - 'hardware/PCB/*.kicad_sch'
       - 'hardware/PCB/*.kicad_pcb'
       - 'config/*'
       - '.github/workflows/workflow.yml'
+<<<<<<< Updated upstream
   pull_request:
     paths:
       - 'hardware/PCB/*.kicad_sch'
       - 'hardware/PCB/*.kicad_pcb'
       - 'config/*'
       - '.github/workflows/workflow.yml'
+=======
+
+>>>>>>> Stashed changes
   repository_dispatch:
     types: [run_qs]
 
@@ -143,7 +152,15 @@ jobs:
       run: |
         git config --local user.email "bot@tokas.co.uk"
         git config --local user.name "BOT"
+<<<<<<< Updated upstream
         git pull
         git tag -a ${{ steps.semvers.outputs.patch }} -m "Tag ${{ steps.semvers.outputs.patch }} [ci skip]"
         git push origin ${{ steps.semvers.outputs.patch }}
         git push
+=======
+        git remote rm origin
+        git remote add origin https://github.com/vattern/hakea.git
+        git pull
+        git tag -a ${{ steps.semvers.outputs.patch }} -m "Tag ${{ steps.semvers.outputs.patch }} [ci skip]"
+        git push origin ${{ steps.semvers.outputs.patch }}
+>>>>>>> Stashed changes
