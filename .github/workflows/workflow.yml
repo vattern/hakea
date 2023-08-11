@@ -11,6 +11,7 @@ on:
       - 'hardware/PCB/*.kicad_pcb'
       - 'config/*'
       - '.github/workflows/workflow.yml'
+      - 'README.md'
   repository_dispatch:
     types: [run_qs]
 
