@@ -2,6 +2,10 @@
 
 ![hakea](images/hakea.jpg)
 
+![image info](./outputs/hakea-fillets-3D_blender_top.png)
+
+![image schematic](outputs/hakea-fillets-schematic_1.0.3.svg).
+
 To flash the bootloader :
 ```
 cd bootloader
