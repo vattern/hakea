@@ -4,7 +4,7 @@
 
 ![image info](./outputs/hakea-fillets-3D_blender_top.png)
 
-![image schematic](outputs/hakea-fillets-schematic_1.0.3.svg).
+![image schematic](outputs/hakea-fillets-schematic_1.0.4.svg).
 
 To flash the bootloader :
 ```
@@ -12,7 +12,7 @@ cd bootloader
 openocd -f hakea.cfg
 ```
 
-Current version : 1.0.3
+Current version : 1.0.4
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
