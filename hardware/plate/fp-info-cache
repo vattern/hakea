@@ -1,162 +1,288 @@
-37760141941423
-Library
-C_0805_2012Metric
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
+66190071393791
+reversible-kicad-footprints
+5Way-K1-1506DN-01
+
+
 0
-2
-2
-Library
-C_1206_3216Metric
-Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
+18
+6
+reversible-kicad-footprints
+5Way-K1-1506DN-01_Cutout
+
+
 0
-2
-2
-Library
-D_0805_2012Metric
-Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-diode
 0
+0
+reversible-kicad-footprints
+C-0805_2012Metric
+SMD Capacitor 0805 (2012 Metric)
+
+0
+10
 2
+reversible-kicad-footprints
+CP_3216
+3216 Tantalum
+capacitor tantalum
+0
+10
 2
-Library
+reversible-kicad-footprints
+CP_6032
+6032 Tantalum
+capacitor tantalum
+0
+10
+2
+reversible-kicad-footprints
 D_SOD-123
 SOD-123 Diode
 SOD-123 diode
 0
 10
 2
-Library
+reversible-kicad-footprints
+EC11_Switch
+
+rotary encoder
+0
+7
+6
+reversible-kicad-footprints
+EC11_Switch_Cutout
+
+
+0
+0
+0
+reversible-kicad-footprints
+Fuse_0805_2012Metric
+Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+10
+2
+reversible-kicad-footprints
 Fuse_1206_3216Metric
 Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-fuse
+resistor
 0
+10
 2
-2
-Library
-JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal
-JST PH series connector, S3B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
-connector JST PH top entry
+reversible-kicad-footprints
+Fuse_1812_4532Metric
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+resistor
 0
-3
-3
-Library
+18
+2
+reversible-kicad-footprints
+HRO-TYPE-C-31-M-12-HandSoldering-NoSBU
+
+
+0
+28
+12
+reversible-kicad-footprints
+JumperPads
+Jumper Pads
+
+0
+10
+2
+reversible-kicad-footprints
+LCD-ILI9341-2.2in
+
+
+0
+18
+9
+reversible-kicad-footprints
+LCD-ILI9341-2.2in_Cutout
+
+
+0
+0
+0
+reversible-kicad-footprints
+MX-1U-Cap0805
+
+
+0
+12
+2
+reversible-kicad-footprints
+MX-1U-D_SOD-123
+1U SOD-123 Diode
+
+0
+12
+2
+reversible-kicad-footprints
+MX-1U-EC11_Switch
+
+rotary encoder
+0
+7
+6
+reversible-kicad-footprints
+MX-1U-EC11_Switch_Cutout
+
+
+0
+0
+0
+reversible-kicad-footprints
 MX-1U-Hotswap
 1U Kailh MX Hotswap
 
 0
 20
 2
-Library
-MountingHole_2.2mm_M2_ISO7380_Pad
-Mounting Hole 2.2mm, M2, ISO7380
-mounting hole 2.2mm m2 iso7380
+reversible-kicad-footprints
+MX-1U-PlateCutout
+
+
 0
-1
-1
-Library
-PinHeader_1x04_P2.54mm_Vertical
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
 0
-4
-4
-Library
-PinSocket_1x04_P2.54mm_Vertical
-Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x04 2.54mm single row
 0
+reversible-kicad-footprints
+MX-1U-SK6812Mini-E
+
+
+0
+22
 4
+reversible-kicad-footprints
+MX-1U-Template
+
+
+0
+0
+0
+reversible-kicad-footprints
+OLED-SSD1306-128x64
+
+
+0
+8
 4
-Library
-R_0805_2012Metric
-Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
+reversible-kicad-footprints
+PJ-3136-B
+
+
+0
+6
+3
+reversible-kicad-footprints
+Piezo-KLJ-1625
+
+
 0
 2
 2
-Library
-RollerEncoder_Panasonic_EVQWGD001
-
-
-0
-6
-6
-Library
-RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
-0
-7
-6
-Library
-SOT-23
-SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-3
-3
-Library
-SOT-23-5
-SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-5
-5
-Library
-SOT-143
-SOT-143
-SOT-143
-0
-4
-4
-Library
-TC-1101V
+reversible-kicad-footprints
+PushButton_4.5mm
 
 
 0
 4
-3
-Library
-USB-C_C168688
+2
+reversible-kicad-footprints
+PushButton_4.5mm_Cutout
 
 
 0
-16
+0
+0
+reversible-kicad-footprints
+R-0805_2012Metric
+SMD Resistor 0805 (2012 Metric)
+
+0
+10
+2
+reversible-kicad-footprints
+SK6812Mini-E
+RGB LED
+rgb led
+0
+22
+4
+reversible-kicad-footprints
+SMD_Push
+
+
+0
 14
-Library
-hakea
-
-
+2
+reversible-kicad-footprints
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
+40
+8
+reversible-kicad-footprints
+SOT-23-3
+3-pin SOT-23 package
+SOT-23-3
 0
+15
+3
+reversible-kicad-footprints
+SOT-23-5
+5-pin SOT-23 package
+SOT-23-5
 0
-Library
-hakea-small-mask
-
-
+26
+5
+reversible-kicad-footprints
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
 0
+32
+6
+reversible-kicad-footprints
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
 0
+20
+3
+reversible-kicad-footprints
+SOT-363_SC-70-5
+SOT-363, SC-70-5
+SOT-363 SC-70-5
 0
-Library
-midmount_slide
-
-
+26
+5
+reversible-kicad-footprints
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
 0
-7
+32
+6
+reversible-kicad-footprints
+SolderJumper-1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+10
+2
+reversible-kicad-footprints
+SolderJumper-1.0x1.5mm_x2
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+20
 4
-Library
-nRF52840_holyiot_18010
+reversible-kicad-footprints
+TestPoint
 
-
+test point plated hole
 0
-55
-55
-Library
-tkw-small
-
-
-0
-0
-0
+1
+1

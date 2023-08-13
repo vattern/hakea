@@ -354,7 +354,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hakea-choc.kicad_pro",
+    "filename": "hakea-choc-left.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -413,7 +413,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "gc-rev2-wireless.dsn",
-      "step": "../3d/PCB.step",
+      "step": "../3d/chockea.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Library")(type "KiCad")(uri "/home/thys/keyboards/hakea/hardware/libraries/hakea.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "reversible-kicad-footprints")(type "KiCad")(uri "/home/thys/keyboards/grandiceps/reversible-kicad-footprints")(options "")(descr ""))
 )
